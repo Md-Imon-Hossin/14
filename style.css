@@ -1,0 +1,257 @@
+/* =============================== Default Css ==================================== */
+img {
+  max-width: 100%;
+}
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* ============================ Header Part ======================== */
+.header {
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 999;
+  background: #fff;
+}
+.header-left img {
+  width: 50px;
+  float: left;
+  margin-right: 10px;
+}
+.header-left h4 {
+  position: relative;
+  top: 10px;
+  font-weight: 400;
+}
+.header-right ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+}
+.header-right ul li {
+  display: inline-block;
+}
+.header-right ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #252525;
+  font-size: 1.4rem;
+  padding: 0 15px;
+  transition: 0.3s;
+  font-weight: 400;
+}
+.header-right ul li a:hover {
+  color: #3794a7;
+}
+/* ====================== Poster Section ========================== */
+.poster {
+  background: url(./img//mountains.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height: 595px;
+  z-index: 1;
+  margin-top: 90px;
+}
+.poster::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(55, 148, 167, 0.7);
+  z-index: -1;
+}
+.poster-left {
+  margin-top: 120px;
+}
+.poster-left a.btn {
+  border-radius: 0;
+  padding: 8px 20px;
+  font-size: 18px;
+}
+.poster-left a span {
+  display: inline-block;
+  margin-right: 5px;
+}
+.poster-left h1 {
+  font-weight: 300;
+}
+.poster-left p {
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+.poster-right {
+  margin-top: 30px;
+}
+/* ======================= Input Section ===================== */
+.input {
+  background: #252525;
+}
+.input input {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0px;
+}
+.input button {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0px;
+}
+.input button span {
+  display: inline-block;
+  margin-right: 5px;
+}
+/* =============================== Card Box Section ======================= */
+.card-box .card {
+  border-radius: 0;
+}
+.card-box .card h4 {
+  font-weight: 400;
+}
+.card-box .card.color {
+  background-color: #3794a7;
+  color: #fff;
+}
+.card-box .card.color h4 {
+  color: #fff !important;
+}
+/* =========================== This Book Section ========================= */
+.this-book-title p {
+  margin-bottom: 50px;
+}
+.card-header {
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 1px 0;
+}
+.this-book-title .card {
+  border-radius: 0;
+}
+.this-book-title .card-header h5 {
+  text-decoration: none;
+  color: #252525;
+}
+.this-book-title .card-header h5 span {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+}
+/* ========================== Meet The Authors ============================ */
+.meet-card {
+  margin-top: 75px;
+}
+.meet-card .card {
+  border-radius: 0;
+  transition: 0.3s;
+}
+.meet-card .card:hover {
+  background-color: #3794a7;
+  color: #fff;
+}
+.meet-card .card:hover ul li a {
+  color: #fff !important;
+}
+.meet-card .card .card-body img {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  margin-top: -65px;
+}
+.meet-card .card .card-body h4 {
+  margin-top: 15px;
+  font-weight: 400;
+}
+.meet-card .card .card-body h5 {
+  font-weight: 400;
+}
+.meet-card .card .card-body ul {
+  list-style: none;
+  padding-left: 0;
+}
+.meet-card .card .card-body ul li {
+  display: inline-block;
+}
+.meet-card .card .card-body ul li a {
+  display: inline-block;
+  font-size: 25px;
+  color: #3794a7;
+  padding: 0 20px;
+  margin-top: 7px;
+  transition: 0.3s;
+}
+/* ============================ Get In Touch ============================== */
+.get-touch {
+  padding: 60px 0;
+}
+.get-touch img {
+  width: 250px;
+  margin-top: 130px;
+}
+.get-touch-title {
+  margin-right: 40px;
+}
+.get-touch-title input {
+  border-radius: 0;
+}
+.get-touch-title textarea {
+  border-radius: 0;
+}
+.get-touch-title .input-group input {
+  width: 770px;
+  padding: 0 20px;
+  height: 50px;
+}
+.get-touch-title span {
+  border-radius: 0;
+}
+.get-touch-title .input-group textarea {
+  height: 200px;
+}
+.get-touch-title input.btn {
+  height: 50px;
+  font-size: 22px;
+  font-weight: 500;
+}
+/* ============================== Footer ============================ */
+.footer-title p {
+  font-size: 1.35rem;
+  font-weight: 300;
+}
+.footer-title span {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.footer-title span a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+.footer-title span a:hover {
+  text-decoration: underline;
+}

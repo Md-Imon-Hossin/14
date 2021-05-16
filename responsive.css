@@ -1,0 +1,160 @@
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1268px) {
+}
+
+@media (max-width: 1200px) {
+  .meet-card .card .card-body p {
+    font-size: 16px;
+  }
+  .meet-card .card .card-body ul li a {
+    display: inline-block;
+    font-size: 20px;
+    color: #3794a7;
+    padding: 0 15px;
+    margin-top: 7px;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 1056px) {
+}
+
+@media (max-width: 992px) {
+  .header-right ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #252525;
+    font-size: 1.1rem;
+    padding: 0 15px;
+    transition: 0.3s;
+    font-weight: 400;
+  }
+  .poster-left h1 {
+    font-weight: 300;
+    font-size: 60px;
+  }
+  .poster-left p {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  .poster-left a.btn {
+    border-radius: 0;
+    padding: 8px 20px;
+    font-size: 15px;
+  }
+  .poster {
+    background: url(./img//mountains.jpg) no-repeat center center;
+    background-size: auto;
+    background-size: cover;
+    position: relative;
+    height: 422px;
+    z-index: 1;
+    margin-top: 90px;
+  }
+  .card-box .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .get-touch img {
+    width: 250px;
+    margin-top: 78px;
+  }
+  .header-right ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #252525;
+    font-size: 0.8rem;
+    padding: 0 8px;
+    transition: 0.3s;
+    font-weight: 400;
+  }
+  .header-left img {
+    width: 42px;
+    float: left;
+    margin-right: 10px;
+  }
+  .header-left h4 {
+    position: relative;
+    top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .poster-left h1 {
+    font-weight: 300;
+    font-size: 50px;
+  }
+  .poster-left {
+    margin-top: 70px;
+    width: 48%;
+  }
+  .poster-left h1 {
+    font-weight: 300;
+    font-size: 40px;
+  }
+  .poster-right {
+    margin-top: -232px;
+    width: 48%;
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-right ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+  }
+  .input input {
+    padding: 0.4rem 1rem;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    border-radius: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 496px) {
+  .poster-left h1 {
+    font-weight: 300;
+    font-size: 30px;
+  }
+  .poster-left {
+    margin-top: 115px;
+    width: 48%;
+  }
+  .poster {
+    background: url(./img//mountains.jpg) no-repeat center center;
+    background-size: auto;
+    background-size: auto;
+    background-size: cover;
+    position: relative;
+    height: 365px;
+    z-index: 1;
+    margin-top: 90px;
+  }
+  .poster-right {
+    margin-top: -211px;
+    width: 48%;
+    margin-left: 218px;
+  }
+}
+@media (max-width: 436px) {
+  .poster-left p {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+  .poster-left a.btn {
+    border-radius: 0;
+    padding: 7px 15px;
+    font-size: 13px;
+  }
+  .poster-right {
+    margin-top: -197px;
+    width: 48%;
+    margin-left: 197px;
+  }
+}
